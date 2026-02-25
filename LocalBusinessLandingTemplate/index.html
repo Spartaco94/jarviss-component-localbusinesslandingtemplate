@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${BUSINESS_NAME} - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id="local-business-landing">
+        <header>
+            <div class="logo-container">
+                <img src="logo.svg" alt="${BUSINESS_NAME} Logo" class="logo">
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <!-- Menu dinamico da config.json -->
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="main-title">${MAIN_TITLE}</h1>
+                <h2 class="subtitle">${SUBTITLE}</h2>
+                <button class="cta-button">${CTA_TEXT}</button>
+            </div>
+            <div class="hero-image">
+                <img src="${HERO_IMAGE}" alt="Servizio ${BUSINESS_NAME}">
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h3>I Nostri Servizi</h3>
+            <div class="services-grid">
+                <!-- Servizi dinamici da config.json -->
+            </div>
+        </section>
+
+        <section class="pricing-section">
+            <h3>Listino Prezzi</h3>
+            <div class="pricing-grid">
+                <!-- Prezzi dinamici da config.json -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="contact-info">
+                <h4>Contattaci</h4>
+                <p>Telefono: ${PHONE}</p>
+                <p>Email: ${EMAIL}</p>
+            </div>
+            <div class="social-links">
+                <!-- Social dinamici -->
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

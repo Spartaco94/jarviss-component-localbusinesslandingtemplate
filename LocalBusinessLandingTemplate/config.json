@@ -1,0 +1,31 @@
+{
+    "businessName": "EcoWash",
+    "navigation": ["Home", "Servizi", "Prezzi", "Contatti"],
+    "hero": {
+        "title": "EcoWash: Lavanderia Sostenibile",
+        "subtitle": "Pulito Perfetto, Rispetto per l'Ambiente",
+        "ctaText": "Prenota Ora"
+    },
+    "services": [
+        {
+            "name": "Lavaggio Ecologico",
+            "description": "Detergenti biodegradabili",
+            "icon": "fas fa-leaf"
+        },
+        {
+            "name": "Stiro Professionale", 
+            "description": "Capi perfettamente stirati",
+            "icon": "fas fa-tshirt"
+        }
+    ],
+    "pricing": [
+        {
+            "service": "Lavaggio Camicia",
+            "price": "3.50€"
+        },
+        {
+            "service": "Lavaggio Pantalone", 
+            "price": "4.00€"
+        }
+    ]
+}
